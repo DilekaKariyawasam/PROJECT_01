@@ -3,7 +3,8 @@ library(sf)
 library(terra)
 library(rnaturalearth)
 library(viridis)  # For magma color palette
-# Version 02
+# Version 03
+
 # Load post-breeding data shapefile
 shape_file <- st_read("C:/Contina LAb/OCW Papers/Data OCW/ebird/Ras_file/Range_files/orcwar_range_2022/orcwar_range_2022.gpkg")
 shape_data <- vect(shape_file)
